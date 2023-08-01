@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <script defer src="https://unpkg.com/@phosphor-icons/web"></script>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/carnival-mask.svg" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/main.js"></script>
+  <title>Carnadev</title>
+</head>
+<body>
+  <header>
+    <div class="content">
+      <div class="top">
+        <p>find your block</p>
+        <h1>Encontre os <span>melhores blocos</span> de carnaval de 2023</h1>
+      </div>
+      <form class="search">
+        <div class="search-field">
+          <label for="name" class="sr-only">Pesquise por nome</label>
+          <i class="ph-light ph-magnifying-glass"></i>
+          <input type="search" name="name" id="name" placeholder="Pesquise por nome">
+        </div>
+        <div class="search-field select">
+          <label for="city" class="sr-only">Selecione sua cidade</label>
+          <i class="ph-light ph-map-pin"></i>
+          <select name="city" id="city">
+            <option value="0" selected>Selecione sua cidade</option>
+            <option value="salvador">Salvador - BA</option>
+            <option value="rio-de-janeiro">Rio de Janeiro - RJ</option>
+            <option value="sao-paulo">São Paulo - SP</option>
+            <option value="curitiba">Curitiba - PR</option>
+            <option value="florianopolis">Florianópolis - SC</option>
+            <option value="porto-alegre">Porto Alegre - RS</option>
+          </select>
+          <i class="ph-bold ph-caret-down"></i>
+        </div>
+        <button class="btn primary">Buscar agora</button>
+      </form>
+    </div>
+  </header>
+  <main>
+    <div class="content">
+      <section class="top">
+        <h2>Blocos recomendados</h2>
+      <div class="view">
+        <button class="btn primary">Lista</button>
+        <button class="btn secondary">Mapa</button>
+      </div>
+      </section>
+      <section class="cards">
+        <div class="card">
+          <img src="./assets/img_01.jpg" alt="Imagem de bloco de carnaval">
+          <div class="content">
+            <h3>O Python do vovô não sobe mais</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+            <div class="location">
+              <i class="ph-light ph-map-pin"></i>
+              São Paulo - SP 
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/img_02.jpg" alt="Imagem de bloco de carnaval">
+          <div class="content">
+            <h3>Todo mundo null</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+            <div class="location">
+              <i class="ph-light ph-map-pin"></i>
+              Florianópolis - SC
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/img_03.jpg" alt="Imagem de bloco de carnaval">
+          <div class="content">
+            <h3>Hoje dou exception</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+            <div class="location">
+              <i class="ph-light ph-map-pin"></i>
+              Curitiba - PR 
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/img_04.jpg" alt="Imagem de bloco de carnaval">
+          <div class="content">
+            <h3>Manda Node</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+            <div class="location">
+              <i class="ph-light ph-map-pin"></i>
+              Salvador - BA 
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/img_05.png" alt="Imagem de bloco de carnaval">
+          <div class="content">
+            <h3>Só no back-end</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+            <div class="location">
+              <i class="ph-light ph-map-pin"></i>
+              Rio de Janeiro - RJ
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/img_06.png" alt="Imagem de bloco de carnaval">
+          <div class="content">
+            <h3>Esse anel não é de Ruby</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+            <div class="location">
+              <i class="ph-light ph-map-pin"></i>
+              São Paulo - SP 
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/img_07.jpg" alt="Imagem de bloco de carnaval">
+          <div class="content">
+            <h3>Pimenta no C# dos outros é refresco</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+            <div class="location">
+              <i class="ph-light ph-map-pin"></i>
+              Rio de Janeiro - RJ 
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/img_08.jpg" alt="Imagem de bloco de carnaval">
+          <div class="content">
+            <h3>EnCACHE aqui</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+            <div class="location">
+              <i class="ph-light ph-map-pin"></i>
+              Porto Alegre - RS 
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/img_09.jpg" alt="Imagem de bloco de carnaval">
+          <div class="content">
+            <h3>Não valho nada mas JAVA li</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+            <div class="location">
+              <i class="ph-light ph-map-pin"></i>
+              Salvador - BA 
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
